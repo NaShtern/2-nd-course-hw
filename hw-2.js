@@ -10,5 +10,12 @@ const date = 2007;
 alert(date);
 */
 
+/* Задание 3
 const nameJs = "Брендан Эйх";
 alert(nameJs);
+*/
+
+let a = 10;
+let b = 2;
+let sum = a + b;
+alert(sum);
