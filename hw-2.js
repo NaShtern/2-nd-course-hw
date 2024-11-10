@@ -29,7 +29,14 @@ let difference = a - b;
 alert(difference);
 */
 
+/* Задание 4 произведение
 let a = 10;
 let b = 2;
 let product = a * b;
 alert(product);
+*/
+
+let a = 10;
+let b = 2;
+let quotient = a / b;
+alert(quotient);
