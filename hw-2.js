@@ -36,7 +36,12 @@ let product = a * b;
 alert(product);
 */
 
+/* Хадание 4 частное
 let a = 10;
 let b = 2;
 let quotient = a / b;
 alert(quotient);
+*/
+
+let result = 2 ** 5;
+alert(result);
