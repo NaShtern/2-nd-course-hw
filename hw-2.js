@@ -15,7 +15,14 @@ const nameJs = "Брендан Эйх";
 alert(nameJs);
 */
 
+/* Задание 4 сумма
 let a = 10;
 let b = 2;
 let sum = a + b;
 alert(sum);
+*/
+
+let a = 10;
+let b = 2;
+let difference = a - b;
+alert(difference);
