@@ -71,8 +71,13 @@ let age = prompt("Сколько вам лет?");
 alert(age);
 */
 
+/* Задание 9
 const user = {
   name: `Александр`,
   age: 28,
   isAdmin: true,
 };
+*/
+
+let user = prompt("Ваше имя?");
+alert(`Привет ${user}!`);
