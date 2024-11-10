@@ -16,10 +16,12 @@ body {
 .header {
   height: 800px;
   background-color: #e1ff8f;
-  background-image: url(images/Group\ 1597880565.svg), url(images/Star\ 3.svg), url(images/Star\ 2.svg), url(images/Star\ 5.svg), url(images/Star\ 4.svg);
+  background-image: url(images/Group\ 1597880565.svg), url(images/Star\ 3.svg),
+    url(images/Star\ 2.svg), url(images/Star\ 5.svg), url(images/Star\ 4.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 72%, 35px, 57px, 37px, 83px;
-  background-position: 860px -400px, 160px 70px, 63px 95px, 950px 540px, 1015px 570px;
+  background-position: 860px -400px, 160px 70px, 63px 95px, 950px 540px,
+    1015px 570px;
 }
 
 .info__title {
@@ -63,7 +65,8 @@ body {
 .content {
   background-color: #202027;
   height: 1470px;
-  background-image: url(images/Star\ 6.svg), url(images/Star\ 7.svg), url(images/Star\ 8.svg);
+  background-image: url(images/Star\ 6.svg), url(images/Star\ 7.svg),
+    url(images/Star\ 8.svg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: 1000px 110px, 30px 670px, 45px 720px;
 }
@@ -162,43 +165,4 @@ body {
   color: #000;
 }
 
-@media (max-width: 767px) {
-  .center {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  main {
-    display: none;
-  }
-  .header {
-    height: 700px;
-    background-image: url(images/Star\ 3.svg), url(images/Star\ 2.svg), url(images/Star\ 5.svg), url(images/Star\ 4.svg), url(images/starmob.svg), url(images/anim.png);
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-    background-size: 21px, 35px, 18px, 40px, 220px, 1400px;
-    background-position: 91px 64px, 37px 97px, 282px 577px, 313px 600px, 245px -80px, 0px 660px;
-  }
-  .info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .info__title {
-    padding-top: 147px;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 49px;
-    text-align: center;
-  }
-  .info__text {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    text-align: center;
-  }
-  .info__btn {
-    width: 285px;
-    height: 55px;
-    font-size: 16px;
-    font-weight: 600;
-  }
-}/*# sourceMappingURL=style.css.map */
+@import "mobile";
