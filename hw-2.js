@@ -55,6 +55,7 @@ let remainder = a % b;
 alert(remainder);
 */
 
+/* Задание 7
 let num = 1;
 num += 5;
 num -= 3;
@@ -63,3 +64,7 @@ num /= 3;
 num++;
 num--;
 alert(num);
+*/
+
+let age = prompt("Сколько вам лет?");
+alert(age);
