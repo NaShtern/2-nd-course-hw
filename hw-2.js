@@ -22,7 +22,14 @@ let sum = a + b;
 alert(sum);
 */
 
+/* Задание 4 разность
 let a = 10;
 let b = 2;
 let difference = a - b;
 alert(difference);
+*/
+
+let a = 10;
+let b = 2;
+let product = a * b;
+alert(product);
