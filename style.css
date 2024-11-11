@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -160,6 +161,108 @@ body {
   font-weight: 700;
   line-height: 39px;
   color: #000;
+}
+
+/* Мини игры*/
+.game {
+  height: 3500px;
+  background-color: #202027;
+  background-image: url(images/Star\ 9.svg), url(images/Star\ 10.svg), url(images/Star\ 11.svg), url(images/Star\ 12.svg);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 35px, 69px, 69px, 41px;
+  background-position: 1277px 93px, 1320px 126px, 1319px 3366px, 1249px 3414px;
+}
+
+.game__name {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  color: #ffffff;
+  padding-top: 46px;
+  padding-bottom: 72px;
+}
+
+.game__content {
+  height: 3160px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.game__card {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 30px;
+  background-color: #ffffff;
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.game__info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.game__info_left {
+  position: relative;
+  left: 48px;
+  top: 48px;
+}
+
+.game__info_right {
+  position: relative;
+  right: 200px;
+  top: 48px;
+}
+
+.game__info_right2 {
+  position: relative;
+  right: 130px;
+  top: 48px;
+}
+
+.game__info_right3 {
+  position: relative;
+  right: 50px;
+  top: 48px;
+}
+
+.game__tittle {
+  color: #202027;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+}
+
+.game__text {
+  color: #202027;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.game__btn {
+  font-size: 24px;
+  font-weight: 600;
+  width: 247px;
+  height: 66px;
+  border-radius: 60px;
+  background-color: #202027;
+  color: #ffffff;
+  transition: all 0.4s;
+}
+
+.game__btn:hover {
+  background-color: #ffffff;
+  color: #202027;
+  cursor: pointer;
+}
+
+.game__img {
+  border-radius: 30px;
 }
 
 @media (max-width: 767px) {
