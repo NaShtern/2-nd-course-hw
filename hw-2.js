@@ -125,6 +125,7 @@ let b = "3";
 alert(Number(a) + Number(b));
 */
 
+/* Задание 5
 let monthNumber = 12;
 
 switch (monthNumber) {
@@ -153,3 +154,4 @@ switch (monthNumber) {
     alert("Неверно");
     break;
 }
+    */

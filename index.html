@@ -15,85 +15,99 @@
   <body>
     <header class="header center">
       <section class="info">
-        <h1 class="info__title">
-          Добро пожаловать <br />
-          на мой сайт мини-игр
-        </h1>
+        <h1 class="info__title">Добро пожаловать на мой сайт мини-игр</h1>
         <p class="info__text">
-          Тебе предстоит пройти несколько увлекательных игр.<br />
-          Если готов, нажимай <b>«Поехали!»</b> и <b>приступай</b>.
+          Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай
+          <b>«Поехали!»</b> и <b>приступай</b>.
         </p>
         <button class="info__btn">Поехали!</button>
       </section>
     </header>
     <main class="content center">
       <section class="content__about">
-        <h1 class="content__title">Об играх</h1>
+        <h2 class="content__title">Об играх</h2>
         <p class="content__text">
-          В моей коллекции представлено 6 игр на разные темы.<br />
-          Игры несложные — в них может поиграть каждый.<br />
-          Все игры доступны для пользования.
+          В моей коллекции представлено 6 игр на разные темы. Игры несложные — в
+          них может поиграть каждый. Все игры доступны для пользования.
         </p>
       </section>
       <section class="item">
         <div class="item__block">
-          <a class="item__card card-mini" href=""
-            ><img class="item__img" src="images/gameimage1.jpeg" alt="" />
+          <a class="item__card card-mini" href="#game1"
+            ><img
+              class="item__img"
+              src="images/gameimage1.jpeg"
+              alt="gameimg"
+            />
             <div class="item__info">
               <p class="item__text">Игра №1</p>
               <h3 class="item__title">Угадай число</h3>
             </div>
           </a>
-          <a class="item__card card-big" href=""
-            ><img class="item__img" src="images/gameimage4.jpeg" alt="" />
+          <a class="item__card card-big" href="#game4"
+            ><img
+              class="item__img"
+              src="images/gameimage4.jpeg"
+              alt="gameimg"
+            />
             <div class="item__info">
               <p class="item__text">Игра №4</p>
-              <h3 class="item__title">
-                Камень,<br />
-                ножницы,<br />
-                бумага
+              <h3 class="item__title item__title_transfer">
+                Камень, ножницы, бумага
               </h3>
             </div>
           </a>
         </div>
         <div class="item__block">
-          <a class="item__card card-middle" href=""
-            ><img class="item__img" src="images/gameimage2.jpeg" alt="" />
+          <a class="item__card card-middle" href="#game2"
+            ><img
+              class="item__img"
+              src="images/gameimage2.jpeg"
+              alt="gameimg"
+            />
             <div class="item__info">
               <p class="item__text">Игра №2</p>
-              <h3 class="item__title">
-                Простая<br />
-                арифметика
+              <h3 class="item__title item__title_transfer">
+                Простая арифметика
               </h3>
             </div>
           </a>
-          <a class="item__card card-middle" href=""
-            ><img class="item__img" src="images/gameimage5.jpeg" alt="" />
+          <a class="item__card card-middle" href="#game5"
+            ><img
+              class="item__img"
+              src="images/gameimage5.jpeg"
+              alt="gameimg"
+            />
             <div class="item__info">
               <p class="item__text">Игра №5</p>
-              <h3 class="item__title">
-                Простая<br />
-                викторина
+              <h3 class="item__title item__title_transfer">
+                Простая викторина
               </h3>
             </div>
           </a>
         </div>
         <div class="item__block">
-          <a class="item__card card-mini" href=""
-            ><img class="item__img" src="images/gameimage3.jpeg" alt="" />
+          <a class="item__card card-mini" href="#game3"
+            ><img
+              class="item__img"
+              src="images/gameimage3.jpeg"
+              alt="gameimg"
+            />
             <div class="item__info">
               <p class="item__text">Игра №3</p>
               <h3 class="item__title">Переверни текст</h3>
             </div>
           </a>
-          <a class="item__card card-big" href=""
-            ><img class="item__img" src="images/gameimage6.jpeg" alt="" />
+          <a class="item__card card-big" href="#game6"
+            ><img
+              class="item__img"
+              src="images/gameimage6.jpeg"
+              alt="gameimg"
+            />
             <div class="item__info">
               <p class="item__text">Игра №6</p>
-              <h3 class="item__title">
-                Генератор<br />
-                случайных<br />
-                цветов
+              <h3 class="item__title item__title_transfer">
+                Генератор случайных цветов
               </h3>
             </div>
           </a>
@@ -101,81 +115,71 @@
       </section>
     </main>
     <div class="game center">
-      <h1 class="game__name">Мини-игры</h1>
+      <h2 class="game__name">Мини-игры</h2>
       <section class="game__content">
-        <a class="game__card" href="">
+        <a class="game__card" id="game1" href="#">
           <div class="game__info game__info_left">
             <h2 class="game__tittle">Угадай число</h2>
-            <p class="game__text">
-              Попробуй угадать случайное <br />
-              число от 1 до 100.
+            <p class="game__text game__text_game1">
+              Попробуй угадать случайное число от 1 до 100.
             </p>
             <button class="game__btn">Играть!</button>
           </div>
-          <img class="game__img" src="images/game1.jpg" alt="" />
+          <img class="game__img" src="images/game1.jpg" alt="gameimg" />
         </a>
-        <a class="game__card" href="">
-          <img class="game__img" src="images/game2.jpg" alt="" />
+        <a class="game__card" id="game2" href="#">
+          <img class="game__img" src="images/game2.jpg" alt="gameimg" />
           <div class="game__info game__info_right">
-            <h2 class="game__tittle">
-              Простая <br />
-              арифметика
+            <h2 class="game__tittle game__tittle_transfer">
+              Простая арифметика
             </h2>
-            <p class="game__text">
-              Попробуй решить простые <br />
-              арифметические задачи.
+            <p class="game__text game__text_game2">
+              Попробуй решить простые арифметические задачи.
             </p>
             <button class="game__btn">Играть!</button>
           </div>
         </a>
-        <a class="game__card" href="">
+        <a class="game__card" id="game3" href="#">
           <div class="game__info game__info_left">
             <h2 class="game__tittle">Переверни текст</h2>
-            <p class="game__text">
-              Попробуй ввести текст, который <br />
-              будет перевернут.
+            <p class="game__text game__text_game3">
+              Попробуй ввести текст, который будет перевернут.
             </p>
             <button class="game__btn">Играть!</button>
           </div>
-          <img class="game__img" src="images/game3.jpg" alt=""
+          <img class="game__img" src="images/game3.jpg" alt="gameimg"
         /></a>
-        <a class="game__card" href="">
-          <img class="game__img" src="images/game4.jpg" alt="" />
+        <a class="game__card" id="game5" href="#">
+          <img class="game__img" src="images/game4.jpg" alt="gameimg" />
           <div class="game__info game__info_right2">
             <h2 class="game__tittle">Викторина</h2>
-            <p class="game__text">
-              Отвечай на вопросы викторины <br />
-              с вариантами ответов.
+            <p class="game__text game__text_game4">
+              Отвечай на вопросы викторины с вариантами ответов.
             </p>
             <button class="game__btn">Играть!</button>
           </div>
         </a>
-        <a class="game__card" href="">
+        <a class="game__card" id="game4" href="#">
           <div class="game__info game__info_left">
-            <h2 class="game__tittle">
-              Камень,<br />
-              ножницы,<br />
-              бумага
+            <h2 class="game__tittle game__tittle_transfer">
+              Камень, ножницы, бумага
             </h2>
-            <p class="game__text">
-              Сыграй в популярную игру против <br />
-              компьютера.
+            <p class="game__text game__text_game5">
+              Сыграй в популярную игру против компьютера.
             </p>
             <button class="game__btn">Играть!</button>
           </div>
-          <img class="game__img" src="images/game5.jpg" alt=""
+          <img class="game__img" src="images/game5.jpg" alt="gameimg"
         /></a>
-        <a class="game__card" href="">
-          <img class="game__img" src="images/game6.jpg" alt="" />
+        <a class="game__card" id="game6" href="#">
+          <img class="game__img" src="images/game6.jpg" alt="gameimg" />
           <div class="game__info game__info_right3">
-            <h2 class="game__tittle">
-              Генератор<br />
-              случайных<br />
-              цветов
+            <h2 class="game__tittle game__tittle_transfer">
+              Генератор случайных цветов
             </h2>
-            <p class="game__text">
-              Игра, в которой при клике на кнопку<br />
-              фон страницы меняется на случайный.
+            <p class="game__text game__text game__text_game6">
+              Игра, в которой при клике на кнопку фон страницы меняется на
+              случайный.
             </p>
             <button class="game__btn">Играть!</button>
           </div>
