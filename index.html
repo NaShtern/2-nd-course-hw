@@ -3,7 +3,103 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@100;600&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header center">
+      <section class="info">
+        <h1 class="info__title">
+          Добро пожаловать <br />
+          на мой сайт мини-игр
+        </h1>
+        <p class="info__text">
+          Тебе предстоит пройти несколько увлекательных игр.<br />
+          Если готов, нажимай <b>«Поехали!»</b> и <b>приступай</b>.
+        </p>
+        <button class="info__btn">Поехали!</button>
+      </section>
+    </header>
+    <main class="content center">
+      <section class="content__about">
+        <h1 class="content__title">Об играх</h1>
+        <p class="content__text">
+          В моей коллекции представлено 6 игр на разные темы.<br />
+          Игры несложные — в них может поиграть каждый.<br />
+          Все игры доступны для пользования.
+        </p>
+      </section>
+      <section class="item">
+        <div class="item__block">
+          <a class="item__card card-mini" href=""
+            ><img class="item__img" src="images/gameimage1.jpeg" alt="" />
+            <div class="item__info">
+              <p class="item__text">Игра №1</p>
+              <h3 class="item__title">Угадай число</h3>
+            </div>
+          </a>
+          <a class="item__card card-big" href=""
+            ><img class="item__img" src="images/gameimage4.jpeg" alt="" />
+            <div class="item__info">
+              <p class="item__text">Игра №4</p>
+              <h3 class="item__title">
+                Камень,<br />
+                ножницы,<br />
+                бумага
+              </h3>
+            </div>
+          </a>
+        </div>
+        <div class="item__block">
+          <a class="item__card card-middle" href=""
+            ><img class="item__img" src="images/gameimage2.jpeg" alt="" />
+            <div class="item__info">
+              <p class="item__text">Игра №2</p>
+              <h3 class="item__title">
+                Простая<br />
+                арифметика
+              </h3>
+            </div>
+          </a>
+          <a class="item__card card-middle" href=""
+            ><img class="item__img" src="images/gameimage5.jpeg" alt="" />
+            <div class="item__info">
+              <p class="item__text">Игра №5</p>
+              <h3 class="item__title">
+                Простая<br />
+                викторина
+              </h3>
+            </div>
+          </a>
+        </div>
+        <div class="item__block">
+          <a class="item__card card-mini" href=""
+            ><img class="item__img" src="images/gameimage3.jpeg" alt="" />
+            <div class="item__info">
+              <p class="item__text">Игра №3</p>
+              <h3 class="item__title">Переверни текст</h3>
+            </div>
+          </a>
+          <a class="item__card card-big" href=""
+            ><img class="item__img" src="images/gameimage6.jpeg" alt="" />
+            <div class="item__info">
+              <p class="item__text">Игра №6</p>
+              <h3 class="item__title">
+                Генератор<br />
+                случайных<br />
+                цветов
+              </h3>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+    <script src="hw-2.js"></script>
+  </body>
 </html>
