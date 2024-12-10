@@ -158,8 +158,17 @@ switch (monthNumber) {
 
 /* Урок 4*/
 
+/* Задание 1
 let i = 0;
 while (i < 2) {
   console.log("Привет");
+  i++;
+}
+  */
+
+let i = 1;
+
+while (i <= 5) {
+  console.log(i);
   i++;
 }
