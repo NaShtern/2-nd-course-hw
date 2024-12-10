@@ -30,6 +30,7 @@
       font-weight: 700;
       line-height: 49px;
       text-align: center;
+      width: 296px;
     }
 
     &__text {
@@ -37,6 +38,7 @@
       font-weight: 400;
       line-height: 20px;
       text-align: center;
+      width: 296px;
     }
 
     &__btn {
@@ -45,5 +47,132 @@
       font-size: 16px;
       font-weight: 600;
     }
+  }
+
+  .game__content {
+    height: 3300px;
+    align-items: center;
+  }
+
+  .game__name {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    padding-bottom: 46px;
+  }
+
+  .game__info {
+    gap: 16px;
+  }
+
+  .game__info_left {
+    left: 30px;
+    top: 290px;
+  }
+
+  .game__info_mob2 {
+    top: 290px;
+    left: 30px;
+  }
+
+  .game__info_downcard {
+    padding-left: 80px;
+    padding-top: 245px;
+  }
+
+  .game__card {
+    width: 343px;
+    position: relative;
+  }
+
+  .game__card_mobgame1and4 {
+    height: 550px;
+  }
+
+  .game__card_mobgame2and3 {
+    height: 591px;
+  }
+
+  .game__card_mobgame5 {
+    height: 640px;
+  }
+
+  .game__card_mobgame6 {
+    height: 667px;
+  }
+
+  .game__img {
+    width: 343px;
+    height: 285px;
+    position: absolute;
+  }
+
+  .game__tittle {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+  }
+
+  .game__tittle_mob3 {
+    width: 250px;
+  }
+
+  .game__tittle_mob5 {
+    width: 250px;
+  }
+
+  .game__tittle_mob6 {
+    width: 250px;
+  }
+
+  .game__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .game__text_game1 {
+    width: 249px;
+  }
+
+  .game__text_game3 {
+    width: 275px;
+  }
+
+  .game__text_game4 {
+    width: 285px;
+  }
+
+  .game__text_game5 {
+    width: 260px;
+  }
+
+  .game__text_game6 {
+    width: 260px;
+  }
+
+  .game__btn {
+    width: 285px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .footer {
+    height: 100px;
+  }
+
+  .footer__text {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding-top: 38px;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 426px) {
+  .game__name {
+    padding-left: 22px;
   }
 }
