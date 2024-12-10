@@ -166,9 +166,15 @@ while (i < 2) {
 }
   */
 
+/* Задание 2
 let i = 1;
 
 while (i <= 5) {
   console.log(i);
   i++;
+}
+  */
+
+for (let i = 7; i <= 22; i++) {
+  console.log(i);
 }
