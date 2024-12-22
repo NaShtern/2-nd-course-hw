@@ -253,3 +253,103 @@ function guessTheNumberGame() {
 }
 
 // guessTheNumberGame();
+
+/* Урок 5 */
+
+/* Задание 1
+function task1(a, b) {
+  if (a < b) {
+    return a;
+  } else {
+    return b;
+  }
+}
+  console.log(task1(5, 4));
+*/
+
+/* Задание 2
+const task2 = (number) => (number % 2 == 0 ? "Число четное" : "Число нечетное");
+
+console.log(task2(4));
+*/
+
+/* Задание 3
+function square(number) {
+  console.log(number ** 2);
+}
+
+const up = (n) => n ** 2;
+
+square(5);
+console.log(up(5));
+*/
+
+/* Задание 4
+function age() {
+  let age = +prompt("Сколько тебе лет?");
+
+  if (age < 0) {
+    alert("Возраст не может быть отрицательным");
+  } else if (age >= 0 && age <= 12) {
+    alert("Привет, друг!");
+  } else if (age >= 13) {
+    alert("Добро пожаловать");
+  } else {
+    alert("Вы ввели неправильное значение");
+  }
+}
+
+age();
+*/
+
+/* Задание 5
+function calc(a, b) {
+  console.log(isNaN(a));
+  console.log(isNaN(b));
+  if (isNaN(a) || isNaN(b)) {
+    return "Одно или оба значения не являются числом";
+  } else {
+    return a * b;
+  }
+}
+
+console.log(calc("hello", 2));
+*/
+
+/* Задание 6
+function getNumber() {
+  let number = prompt("Введите число");
+  if (isNaN(number)) {
+    return "Переданный параметр не является числом";
+  } else {
+    return `${number} в кубе равняется ${number ** 3}`;
+  }
+}
+
+console.log(getNumber());
+*/
+
+/* Задание 7
+function getArea() {
+  return Math.PI * this.radius ** 2;
+}
+
+function getPerimeter() {
+  return 2 * Math.PI * this.radius;
+}
+
+const circle1 = {
+  radius: 10,
+  methodGetArea: getArea,
+  methodGetPerimeter: getPerimeter,
+};
+
+const circle2 = {
+  radius: 20,
+  methodGetArea: getArea,
+  methodGetPerimeter: getPerimeter,
+};
+
+console.log(circle1.methodGetArea());
+console.log(circle2.methodGetArea());
+*/
