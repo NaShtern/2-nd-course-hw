@@ -209,3 +209,47 @@ for (let i = dayFriday; i <= allDay; i += 7) {
   console.log(`Сегодня пятница, ${i}-е число. Необходимо подготовить отчет.`);
 }
   */
+
+/* Игра Угадай число*/
+
+function guessTheNumberGame() {
+  const secretNumber = Math.floor(Math.random() * 100) + 1;
+  let guess;
+  let attempts = 0;
+
+  alert("Добро пожаловать в игру 'Угадай число'!");
+
+  while (true) {
+    attempts++;
+    guess = prompt("Попытка №" + attempts + ". Угадайте число от 1 до 100:");
+
+    if (guess === null) {
+      alert("Игра отменена. Загаданное число было: " + secretNumber);
+      return;
+    }
+
+    if (isNaN(guess)) {
+      alert("Пожалуйста, введите число!");
+      continue;
+    }
+
+    guess = parseInt(guess);
+
+    if (guess === secretNumber) {
+      alert(
+        "Поздравляю! Вы угадали число " +
+          secretNumber +
+          " за " +
+          attempts +
+          " попыток!"
+      );
+      return;
+    } else if (guess < secretNumber) {
+      alert("Загаданное число больше!");
+    } else {
+      alert("Загаданное число меньше!");
+    }
+  }
+}
+
+// guessTheNumberGame();
